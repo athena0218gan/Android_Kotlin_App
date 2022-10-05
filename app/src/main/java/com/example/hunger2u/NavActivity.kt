@@ -2,6 +2,7 @@ package com.example.hunger2u
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
@@ -45,5 +46,15 @@ class NavActivity : AppCompatActivity() {
             startActivity(i);
             finish()
         }
+        val currentNightMode = Configuration.UI_MODE_NIGHT_MASK
+        binding.btnDark.setOnClickListener{
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+           when (currentNightMode) {
+               Configuration.UI_MODE_NIGHT_NO -> {} // Night mode is not active, we're using the light theme
+               Configuration.UI_MODE_NIGHT_YES -> {} // Night mode is active, we're using dark theme
+           }
+        }
+
+
     }
 }
