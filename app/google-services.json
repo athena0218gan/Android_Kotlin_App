@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "616710875093",
+    "project_id": "hunger2u-98aa2",
+    "storage_bucket": "hunger2u-98aa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616710875093:android:bb8406899843c43f267f5c",
+        "android_client_info": {
+          "package_name": "com.example.hunger2u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616710875093-hab90ffto3j1hclfmjc11p2gnku4le0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw10xfaGR2-P5payNEIaqA5R9ncuFtbn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616710875093-hab90ffto3j1hclfmjc11p2gnku4le0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
